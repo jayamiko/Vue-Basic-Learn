@@ -1,10 +1,41 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
+  width: 100vw;
   margin: 0 auto;
-  padding: 2rem;
   font-weight: normal;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  max-width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.summary {
+  flex-wrap: wrap;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
 }
 
 a,
@@ -24,12 +55,6 @@ a,
 @media (min-width: 1024px) {
   body {
     display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    padding: 20px;
   }
 }
