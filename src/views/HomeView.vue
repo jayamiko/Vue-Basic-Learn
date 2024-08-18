@@ -5,6 +5,10 @@ const routes = [
   {
     idx: 1,
     name: 'declarative-rendering'
+  },
+  {
+    idx: 2,
+    name: 'directives'
   }
 ]
 </script>

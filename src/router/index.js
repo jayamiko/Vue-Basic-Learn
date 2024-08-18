@@ -12,6 +12,11 @@ const router = createRouter({
       path: '/declarative-rendering',
       name: 'declarative rendering',
       component: () => import('../views/DeclarativeView.vue')
+    },
+    {
+      path: '/directives',
+      name: 'Directives',
+      component: () => import('../views/DirectiveView.vue')
     }
   ]
 })

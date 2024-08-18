@@ -1,7 +1,14 @@
 @import './base.css';
 
+body {
+  padding: 20px;
+  background: #333;
+  color: #fff;
+}
+
 #app {
   width: 100vw;
+  display: flex;
   margin: 0 auto;
   font-weight: normal;
 }
@@ -49,12 +56,5 @@ a,
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    padding: 20px;
   }
 }
